@@ -9,15 +9,15 @@ import Image4 from "../images/Image4.png";
 import Logo from "../images/Image5.png";
 export default function Page() {
   return (
-    <div className="">
-      <p>
+    <div className="bg-[#F9F9FB]w-3/4 ml-[19rem]">
+      <p className="text-[0.6rem] text-passive">
         Home — Reading lists — UX Design — 10 Reasons to Build Your Website with
         WP Page Builder
       </p>
-      <div>
+      <div className="flex space-x-5">
         <div>
           <li>
-            <img src={Twitter} alt="" />
+            <img className="" src={Twitter} alt="" />
           </li>
           <li>
             <img src={PicsArt} alt="" />
@@ -30,7 +30,7 @@ export default function Page() {
           </li>
         </div>
         <div>
-          <img src={Image1} />
+          <img className="w-[1021px]" src={Image1} />
         </div>
         <div>
           <p>heart symbol</p>
