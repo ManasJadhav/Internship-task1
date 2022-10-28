@@ -8,16 +8,16 @@ export default function Navbar() {
         <li>
           <img src={companyLogo} alt="logo" />
         </li>
-        <li>Popular</li>
-        <li className="bg-default-pink-hover px-4 py-1 rounded-md text-white ">
+        <li className="cursor-pointer hover:scale-110">Popular</li>
+        <li className="bg-default-pink-hover px-4 py-1 rounded-md text-white cursor-pointer hover:scale-110">
           New
         </li>
-        <li>Reading list</li>
-        <li>Topics</li>
-        <li>Subscribe</li>
+        <li className="cursor-pointer hover:scale-110">Reading list</li>
+        <li className="cursor-pointer hover:scale-110">Topics</li>
+        <li className="cursor-pointer hover:scale-110">Subscribe</li>
       </ul>
       <ul className="flex items-center mt-10">
-        <li>
+        <li className="cursor-pointer hover:scale-110">
           <img src={magnifyingGlass} alt="glassLogo" />
         </li>
       </ul>
