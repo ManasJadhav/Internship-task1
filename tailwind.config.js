@@ -9,6 +9,10 @@ module.exports = {
         passive: "#9B9B9B",
         "default-black": "#4A4A4A",
         tag: "#27AEFF",
+        heading: "#111210",
+      },
+      fontFamily: {
+        OpenSans: ["Open Sans", "sans-serif"],
       },
     },
   },

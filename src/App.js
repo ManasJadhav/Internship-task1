@@ -6,7 +6,7 @@ import Page from "./components/Page";
 
 function App() {
   return (
-    <div className="">
+    <div className="font-OpenSans">
       <Navbar />
       <Home />
       <Page />
