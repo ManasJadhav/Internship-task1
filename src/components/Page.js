@@ -44,7 +44,7 @@ export default function Page() {
             </div>
           </div>
           <div>
-            <img className="w-[800px] rounded-md" src={Image1} />
+            <img className="w-[800px] rounded-md" src={Image1} alt="Display" />
           </div>
           <div>
             <img src={Dil} alt="Likes" className="w-8 h-7" />
@@ -74,7 +74,11 @@ export default function Page() {
           Let’s have a look below at all of the juicy features WP Page Builder
           includes.
         </p>
-        <img className="w-[800px] ml-20 rounded-md mt-6" src={Image2} />
+        <img
+          className="w-[800px] ml-20 rounded-md mt-6"
+          src={Image2}
+          alt="Display"
+        />
 
         <p className="w-[800px] text-xl leading-10 ml-20 mt-10">
           <p className="mb-8">
@@ -114,14 +118,14 @@ export default function Page() {
             <img
               className="rounded-md image-responsive"
               src={Image3}
-              alt="Image"
+              alt="Display"
             />
           </div>
           <div>
             <img
               className="rounded-md image-responsive"
               src={Image4}
-              alt="Image"
+              alt="Display"
             />
           </div>
         </div>
@@ -132,7 +136,7 @@ export default function Page() {
         </p>
 
         <div className="ml-20 w-[800px] flex flex-col items-center text-heading">
-          <img className="rounded-full w-20 my-7 " src={Image5} alt="Image" />
+          <img className="rounded-full w-20 my-7 " src={Image5} alt="Display" />
           <p className="text-lg font-bold">TOMAS LAURINAVICIUS</p>
           <p className="text-base">
             Follow me <span className="text-tag">@JohnAMWill.</span>
@@ -143,7 +147,7 @@ export default function Page() {
         </p>
         <div className="w-[800px] ml-20 space-x-5 flex justify-between">
           <div>
-            <img className="rounded-md" src={Image6} alt="Image" />
+            <img className="rounded-md" src={Image6} alt="Display" />
             <p className="my-5">
               <span className="text-passive">BY</span> TOMAS LAURINAVICIUS{" "}
               <span className="text-passive"> IN </span> DESIGN PROCESS
@@ -157,7 +161,7 @@ export default function Page() {
             </p>
           </div>
           <div>
-            <img className="rounded-md" src={Image7} alt="Image" />
+            <img className="rounded-md" src={Image7} alt="Display" />
             <p className="my-5">
               <span className="text-passive">BY</span> TOMAS LAURINAVICIUS{" "}
               <span className="text-passive"> IN </span> DESIGN PROCESS
