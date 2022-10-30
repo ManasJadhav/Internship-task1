@@ -4,7 +4,7 @@ import magnifyingGlass from "../images/logo/magnifying-glass.png";
 export default function Navbar() {
   return (
     <div className="flex justify-evenly text-heading">
-      <ul className="flex space-x-12 items-center mt-10">
+      <ul className="flex space-x-8 items-center mt-10 ml-16">
         <li>
           <img src={companyLogo} alt="logo" />
         </li>
@@ -15,15 +15,15 @@ export default function Navbar() {
         <li className="cursor-pointer hover:scale-110">Reading list</li>
         <li className="cursor-pointer hover:scale-110">Topics</li>
         <li className="cursor-pointer hover:scale-110">Subscribe</li>
-      </ul>
-      <ul className="flex items-center mt-10">
-        <li className="cursor-pointer flex">
+        <li>
           <input
-            className="border absolute right-[20.5rem] p-2 top-9 rounded-md w-64 shadow-sm"
+            className="relative border-default-black left-22 border p-2 rounded-md w-64 shadow-sm"
             type="text"
           />
+        </li>
+        <li>
           <img
-            className="hover:scale-110"
+            className="hover:scale-110 relative right-16"
             src={magnifyingGlass}
             alt="glassLogo"
           />
