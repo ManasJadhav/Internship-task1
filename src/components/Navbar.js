@@ -4,7 +4,7 @@ import magnifyingGlass from "../images/logo/magnifying-glass.png";
 export default function Navbar() {
   return (
     <div className="flex justify-evenly text-heading">
-      <ul className="flex space-x-8 items-center mt-10 ml-16">
+      <ul className="flex space-x-8 items-center mt-10">
         <li>
           <img src={companyLogo} alt="logo" />
         </li>
